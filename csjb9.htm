@@ -1,0 +1,244 @@
+<html>
+
+<head>
+<title>Sisters of St. John The Baptist - page 9 - Thank you</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta NAME="Description" CONTENT="CSJB scrolling text  By: Claudette Rietveld">
+<script LANGUAGE="JavaScript">
+<!--
+
+// 
+// 
+// 
+
+// set speed of banner (pause in milliseconds between characters)
+var speed = 100 // decrease value to increase speed (must be positive)
+
+// set pause between completion of message and beginning of following message
+var pause = 1000 // increase value to increase pause
+
+// set initial values
+var timerID = null
+var bannerRunning = false
+
+// create global array
+var ar = new Array()
+
+// assign the strings to the array's elements
+ar[0] = "Thank You!"
+ar[1] = "Luke 18:27  Jesus replied, What is "
+ar[2] = "impossible with men is possible with God."
+ar[3] = "Click on the Play Music button"
+
+// set index of first message to be displayed first
+var currentMessage = 0
+
+// set index of last character to be displayed first
+var offset = 0
+
+// stop the banner if it is currently running
+function stopBanner() {
+	// if banner is currently running
+	if (bannerRunning)
+		// stop the banner
+		clearTimeout(timerID)
+
+	// timer is now stopped
+	bannerRunning = false
+}
+
+// start the banner
+function startBanner() {
+	// make sure the banner is stopped
+	stopBanner()
+
+	// start the banner from the current position
+	showBanner()
+}
+
+// type-in the current message
+function showBanner() {
+	// assign current message to variable
+	var text = ar[currentMessage]
+
+	// if current message has not finished being displayed
+	if (offset < text.length) {
+		// if last character of current message is a space
+		if (text.charAt(offset) == " ")
+			// skip the current character
+			offset++			
+
+		// assign the up-to-date to-be-displayed substring
+		// second argument of method accepts index of last character plus one
+		var partialMessage = text.substring(0, offset + 1) 
+
+		// display partial message in status bar
+		window.status = partialMessage
+
+		// increment index of last character to be displayed
+		offset++ // IE sometimes has trouble with "++offset"
+
+		// recursive call after specified time
+		timerID = setTimeout("showBanner()", speed)
+
+		// banner is running
+		bannerRunning = true
+	} else {
+		// reset offset
+		offset = 0
+
+		// increment subscript (index) of current message
+		currentMessage++
+
+		// if subscript of current message is out of range
+		if (currentMessage == ar.length)
+			// wrap around (start from beginning)
+			currentMessage = 0
+
+		// recursive call after specified time
+		timerID = setTimeout("showBanner()", pause)
+
+		// banner is running
+		bannerRunning = true
+	}
+}
+
+// -->
+</script>
+</head>
+
+<body onLoad="startBanner()" background="bkgr2csjb.jpg">
+<div align="left">
+
+<table border="0" cellpadding="0" cellspacing="0" width="869">
+  <tr>
+    <td width="190"><img src="logosmall.gif" alt width="131" height="156"></td>
+    <td width="690"><p align="center"><img src="top.gif" width="479" height="79"
+    alt="Welcome to The Sisters of St. John The Baptist WebSite"></p>
+    <p>&nbsp;</td>
+  </tr>
+</center>
+  <tr>
+    <td valign="middle" align="center" width="190">
+      <p align="left">&nbsp;</p>
+      <p align="left">&nbsp;</p>
+      <dl>
+      <div align="left">
+       <p align="left"><a href="index.htm"><font color="#000000" face="Arial" size="2"><b>Home<br>
+       </b></font></a><b><font color="#000000" face="Arial" size="2"><font face="Arial" size="2"><a href="csjb2.htm"><font color="#000000">History
+      &amp; Mission<br>
+      </font></a><a href="csjb12.htm"><font color="#000000">Founder's Page<br>
+      </font></a><a href="csjb3.htm"><font color="#000000">American Presence<br>
+      </font></a>I<a href="csjb4.htm"><font color="#000000">nternational
+      Presence<br>
+      </font></a><a href="csjb5.htm"><font color="#000000">Membership<br>
+      </font></a><a href="csjb6.htm"><font color="#000000">Special Sisters<br>
+       </font></a></font><a href="csjb7.htm"><font color="#000000">Special Projects<br>
+      </font></a><a href="csjb8.htm"><font color="#000000">Did You Know?<br>
+      </font></a><a href="csjb10.htm"><font color="#000000">Reflections<br>
+      </font></a><a href="csjb9.htm"><font color="#000000">Thank You</font></a>
+
+      </font></b>
+      </div>
+		<div align="left">
+       <p align="left">&nbsp;</div>
+		<div align="left">
+       <p align="left">&nbsp;</div>
+		<div align="left">
+       <p align="left">&nbsp;</div>
+		<div align="left">
+       <p align="left">&nbsp;</div>
+		<div align="left">
+       <p align="left">&nbsp;</div>
+    </dl>
+    </td>
+    <center>
+
+    <td align="center" valign="middle" width="690"><dl>
+      <dt><img src="thankyou.gif" width="187" height="74" alt></dt>
+    <p align="center"><img src="peter.JPG" alt align="center" hspace="20" width="474" height="319"></p>
+    </dl>
+    </td>
+  </tr>
+</table>
+</div>
+
+<dl>
+  <dt><dd>
+    <table border="0" width="88%" id="table1">
+		<tr>
+			<td width="103">&nbsp;</td>
+			<td width="658">
+    <p align="left"><font color="#6A0000" face="Lydian" size="5">Dear Friends and Benefactors,<br>
+    <BR>
+    To each of you we offer a heartfelt "Thanks" 
+  for your spiritual and financial support of our many apostolates and of our retired Sisters.&nbsp; 
+  We deeply appreciate your gifts of time, talent and treasure so generously given for the 
+  Lord's work.<br>
+    <BR>
+ Special recognition and thanks is given to Claudette Rietveld Holden, our web master,
+  who is responsible for turning our thoughts and ideas into cyber reality.<br>
+    <BR>
+ Be assured that we will bring your needs and those of your loved ones before 
+  the Lord in our daily prayers, trusting that "the Lord is never outdone in generosity." 
+    </font>
+    <p align="center"><font color="#6A0000" size="5" face="Lydian">God's blessings and love be with
+    you.</font></p>
+    
+			<p>
+			&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+    
+</dl>
+<p></p>
+<p></p>
+<dl>
+  <dt><font face="Arial"><big><big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+    </big></big></font><img
+    src="csjbroll.gif" width="360" height="90" alt></dt> 
+  
+</dl>
+<p>&nbsp;</p>
+<dl>
+  <dd
+  <p>
+
+  <p align="left">
+  &nbsp;
+
+  <dd
+  <p>
+
+ <p align="center"><b><font face="Arial" size="2">To know more about the Sisters
+ of St. John the Baptist,&nbsp;<br>
+ &nbsp;&nbsp;to learn how you can assist our works,&nbsp;<br>
+ &nbsp;to be placed on our Prayer List or Mail List,&nbsp;<br>
+ <br>
+ please contact:&nbsp;</font></b>
+ <p align="center"><b>Sr Rosaria DeMaro, CS<font face="Arial" size="2">JB.<br>
+	Sisters of St John the Baptist<br>
+ PO Box 711<br>
+ Gladstone, NJ 07934</font></b><p align="center"><b>
+	<a href="mailto:srrosariadem@baptistines.org"><font color="#000080">
+	srrosariadem@baptistines.org</font></a><font color="#000080">&nbsp;</font><font face="Arial" size="2"><a href="mailto:csjbdev@yahoo.com"><font color="#000080">&nbsp;
+	</font></a><br>
+ <a href="mailto:baptistines@worldnet.att.net"><br>
+ &nbsp;</a></font></b></dl><font face="Arial"><B> 
+  
+<p align="center"><a href="csjb10.htm"><img src="back.gif" border="0" alt="back" width="36" height="56"></a>&nbsp;
+<a href="index.htm"><img src="home.gif" border="0" alt="home" width="36" height="54"></a>&nbsp; <a href="music.htm"><img src="next.gif"
+border="0" width="37" height="56" alt="next"></a></p>
+
+<p align="left">&nbsp;</p>
+
+<p><br>
+<!-- END FASTCOUNTER LINK --></p>
+  <p>&nbsp;</p>
+</b>
+</body>
+</html>
+
+
+

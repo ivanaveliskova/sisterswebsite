@@ -1,0 +1,278 @@
+<html>
+
+<head>
+<title>Sisters of St. John The Baptist - Our Emblem</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<meta NAME="Description" CONTENT="CSJB scrolling text by Claudette Rietveld">
+<script LANGUAGE="JavaScript">
+<!--
+
+// 
+// 
+// 
+
+// set speed of banner (pause in milliseconds between characters)
+var speed = 100 // decrease value to increase speed (must be positive)
+
+// set pause between completion of message and beginning of following message
+var pause = 1000 // increase value to increase pause
+
+// set initial values
+var timerID = null
+var bannerRunning = false
+
+// create global array
+var ar = new Array()
+
+// assign the strings to the array's elements
+ar[0] = "Our Emblem has special meaning"
+ar[1] = "~Behold the Lamb of God, who"
+ar[2] = "takes away the sin of the world~"
+ar[3] = "~Ecce Agnus Dei~"
+
+// set index of first message to be displayed first
+var currentMessage = 0
+
+// set index of last character to be displayed first
+var offset = 0
+
+// stop the banner if it is currently running
+function stopBanner() {
+	// if banner is currently running
+	if (bannerRunning)
+		// stop the banner
+		clearTimeout(timerID)
+
+	// timer is now stopped
+	bannerRunning = false
+}
+
+// start the banner
+function startBanner() {
+	// make sure the banner is stopped
+	stopBanner()
+
+	// start the banner from the current position
+	showBanner()
+}
+
+// type-in the current message
+function showBanner() {
+	// assign current message to variable
+	var text = ar[currentMessage]
+
+	// if current message has not finished being displayed
+	if (offset < text.length) {
+		// if last character of current message is a space
+		if (text.charAt(offset) == " ")
+			// skip the current character
+			offset++			
+
+		// assign the up-to-date to-be-displayed substring
+		// second argument of method accepts index of last character plus one
+		var partialMessage = text.substring(0, offset + 1) 
+
+		// display partial message in status bar
+		window.status = partialMessage
+
+		// increment index of last character to be displayed
+		offset++ // IE sometimes has trouble with "++offset"
+
+		// recursive call after specified time
+		timerID = setTimeout("showBanner()", speed)
+
+		// banner is running
+		bannerRunning = true
+	} else {
+		// reset offset
+		offset = 0
+
+		// increment subscript (index) of current message
+		currentMessage++
+
+		// if subscript of current message is out of range
+		if (currentMessage == ar.length)
+			// wrap around (start from beginning)
+			currentMessage = 0
+
+		// recursive call after specified time
+		timerID = setTimeout("showBanner()", pause)
+
+		// banner is running
+		bannerRunning = true
+	}
+}
+
+// -->
+</script>
+
+<bgsound src="gfhsgmld.mid" loop="2">
+</head>
+
+<body onLoad="startBanner()" background="bkgr2csjb.jpg">
+<div align="center"><center>
+
+<table border="0" cellpadding="0" cellspacing="0" width="697">
+  <tr>
+    <td width="131"><img src="Anicsjb.gif" width="131" height="156" alt></td>
+    <td width="566" valign="middle" align="center"><img src="top.gif" width="479" height="79"
+    alt="Welcome to The Sisters of St. John The Baptist WebSite"><p>&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="middle" align="center" width="131"></td>
+    <td width="566"><p align="center"><strong><big><big>An Explanation of Our Emblem </big></big></strong></td>
+  </tr>
+</table>
+</center></div><i><u>
+
+<p align="center"></u></i><img src="logo.gif" width="234" height="309" alt></p>
+<div align="center"><center>
+
+<table border="0" cellspacing="0" cellpadding="0" width="719">
+  <tr>
+    <td width="179"><img src="john.gif" width="167" height="291" alt="john.gif (50318 bytes)"></td>
+    <td width="10"><img src="pixel.gif" width="1" height="1" alt="pixel.gif (42 bytes)"></td>
+    <td valign="top" align="left" width="530"><p align="left">&nbsp;</p>
+    <p align="left"><font face="Arial"><strong>The emblem of the Congregation of the Sisters
+    of St. John the Baptist is a symbolic representation of the virtues of our holy patron,
+    St.John the Baptist, and of the perfection to which the Baptistines aspire.</strong></font></p>
+    <p align="left"><font face="Arial"><strong>The shield represents our holy faith that is to
+    defend us against the wiles of the devil.&nbsp; The division of the shield into a red and
+    white field symbolizes the beheading of John the Baptist for his courageous defense of
+    God's law. The colors themselves are also symbolic.&nbsp; The red reminds us of the blood
+    that gushed from his body; the white represents the silver dish on which his head was
+    placed and which reflected the silvery whiteness of his noble countenance.&nbsp; On the
+    green banner of faith are inscribed the words with which the Precursor announced to the
+    world the presence of Christ among men: &quot;Ecce Agnus Dei -- Behold the Lamb of God Who
+    takes away the sins of the world.&quot;&nbsp; The shield is encircled by the Rosary with
+    the smaller beads for the &quot;Hail Mary's&quot; in lapislazuli, indicative of peace and
+    innocence.&nbsp; The large beads, the &quot;Our Fathers&quot; are in gold, emblem of light
+    and the divine splendor of truth.&nbsp; The line which divides the shield symbolizes the
+    two-edged sword of the spirit, the noble weapon whose hilt is a cross and whose point is
+    ever turned heavenward.</strong></font></p>
+    <p align="left"><font face="Arial"><strong>The seal, C.S.S.J.B. (Congregatio Sororum
+    Sanctis Joannis Baptistae) (Congregation of the Sisters of St. John the Baptist) crowns
+    the emblem.. It is inscribed on a blue ribbon, symbol of the heavenly intercession of our
+    Patron and our fidelity to our holy Congregation.</strong></font></td>
+  </tr>
+</table>
+</center></div>
+
+<p align="center"><a href="csjb9.htm"><img src="thankyou.gif" border="0" width="150"
+height="40" alt="click here for Thank you page"></a></p>
+
+<p align="center"><a href="index.htm"><img src="next.gif" border="0" width="41"
+height="64" alt="next page"></a><a href="mailto:Baptistines@worldnet.att.net"><img
+src="mailbox5.gif" border="0" width="79" height="83" alt="Click here to email us"></a><a
+href="music.htm"><img src="midiplay.gif" border="0" width="64" height="60"
+alt="click here for file page"></a></p>
+<!-- BEGIN FASTCOUNTER CODE -->
+<a href="http://member.linkexchange.com/cgi-bin/fc/fastcounter-login?841651" target="_top">
+
+<p></a>&nbsp;</p>
+
+<p align="center"><script><!--  Activate Cloaking Device
+
+
+
+var now = new Date();
+
+var yr = now.getYear();
+
+var mName = now.getMonth() + 1;
+
+var dName = now.getDay() + 1;
+
+var dayNr = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+
+
+
+if(dName==1) Day = "Sunday";
+
+if(dName==2) Day = "Monday";
+
+if(dName==3) Day = "Tuesday";
+
+if(dName==4) Day = "Wednesday";
+
+if(dName==5) Day = "Thursday";
+
+if(dName==6) Day = "Friday";
+
+if(dName==7) Day = "Saturday";
+
+
+
+if(mName==1) Month="January";
+
+if(mName==2) Month="February";
+
+if(mName==3) Month="March";
+
+if(mName==4) Month="April";
+
+if(mName==5) Month="May";
+
+if(mName==6) Month="June";
+
+if(mName==7) Month="July";
+
+if(mName==8) Month="August";
+
+if(mName==9) Month="September";
+
+if(mName==10) Month="October";
+
+if(mName==11) Month="November";
+
+if(mName==12) Month="December";
+
+
+
+ var todaysDate =(" "
+
+       + Day
+
+       + " "
+
+       + Month
+
+       + " "
+
+       + dayNr
+
+       + ", "
+
+       + "19"
+
+       + yr
+
+       + "<BR>");
+
+
+
+document.open();
+
+document.write("<STRONG><FONT COLOR=ffffff SIZE=4>"+todaysDate+"</FONT></STRONG>");
+
+// Deactivate Cloaking --></script></p>
+
+<p><br>
+<a href="http://www.rietveld.nu"><img src="cwebdesigns.gif" border="0" width="120"
+height="25" alt="www.Rietveld.nu"></a></p>
+
+<p><a href="http://member.linkexchange.com/cgi-bin/fc/fastcounter-login?841651"
+target="_top"><img border="0"
+src="http://fastcounter.linkexchange.com/fastcounter?841651+1683309"></a> <!-- END FASTCOUNTER CODE --><br>
+<!-- BEGIN FASTCOUNTER LINK --><font face="arial" size="1"><a href="http://fastcounter.linkexchange.com/fc-join"
+target="_top">FastCounter by LinkExchange</a> </font></p>
+
+<p><small><font face="Arial">This site best viewed using<small> </small></font></small><a
+href="http://www.microsoft.com/windows/ie/"><img src="ieget_animated.gif" border="0"
+width="88" height="31" alt="Click here for FREE Internet Explorer"></a></p>
+
+<p><br>
+</p>
+</body>
+</html>
+

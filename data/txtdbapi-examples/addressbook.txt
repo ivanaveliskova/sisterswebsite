@@ -1,0 +1,8 @@
+id#surname#familyname#street#plz#city#phone
+inc#str#str#str#str#str#str
+######
+1#Paul#Mustermann#Stoneway 15#2434#Stonehenge#+35 243 454234
+2#Otto#Mueller#Applestreet 32#68457#Big Apple#+53 3888856664
+3#Cindy#Crawy#Park Avenue 55#566666#New Borg#+22 434 8899066
+4#Matthew#Bluegerald#Sunnywalk 353#11111#Beachcity#+44 535246634
+5#Arabella#Schrader#Milkyway 92#55553#Astrotown#+99 555 999999

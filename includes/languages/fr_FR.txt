@@ -1,0 +1,53 @@
+#Flyspeck language file: french
+
+#Top Navigation
+Publish Page
+Publier page
+
+Preview Page
+Pr&eacute;vision page
+
+Save As New Page
+Sauvegarder en tant que nouvelle page
+
+Site Browser
+Navigateur de site
+
+User Manager
+Gestionnaire d'utilisateur
+
+Role Manager
+Gestionnaire de r&ocirc;les
+
+Logout
+D&eacute;connecter
+
+Welcome
+Bienvenu
+
+you are in the role
+vous &ecirc;tes dans le r&ocirc;le
+
+#meta display
+Title
+Titre
+
+Meta Keywords
+Meta mots clef
+
+Meta Description
+Meta description
+
+#Login Form
+Username
+Nom d'utilisateur
+
+Password
+Mot de passe
+
+Login
+Connecter
+
+#Messaging
+Content Saved Successfully
+Contenu sauvegard&eacute; avec succ&egrave;s

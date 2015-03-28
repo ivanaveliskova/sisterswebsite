@@ -1,0 +1,300 @@
+<html>
+
+<head>
+<title>Sisters of St. John The Baptist - page 2 - History &amp; Mission</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta NAME="description" CONTENT="The History and Mission of the Sisters of St. John the Baptist">
+<script LANGUAGE="JavaScript">
+<!--
+
+// 
+// 
+// 
+
+// set speed of banner (pause in milliseconds between characters)
+var speed = 100 // decrease value to increase speed (must be positive)
+
+// set pause between completion of message and beginning of following message
+var pause = 1000 // increase value to increase pause
+
+// set initial values
+var timerID = null
+var bannerRunning = false
+
+// create global array
+var ar = new Array()
+
+// assign the strings to the array's elements
+ar[0] = "Welcome to our History and Mission page"
+ar[1] = "All things are possible with God - Mark 10:27"
+ar[2] = "Trust in Divine Providence"
+ar[3] = "Click on the PLAY MUSIC button"
+
+// set index of first message to be displayed first
+var currentMessage = 0
+
+// set index of last character to be displayed first
+var offset = 0
+
+// stop the banner if it is currently running
+function stopBanner() {
+	// if banner is currently running
+	if (bannerRunning)
+		// stop the banner
+		clearTimeout(timerID)
+
+	// timer is now stopped
+	bannerRunning = false
+}
+
+// start the banner
+function startBanner() {
+	// make sure the banner is stopped
+	stopBanner()
+
+	// start the banner from the current position
+	showBanner()
+}
+
+// type-in the current message
+function showBanner() {
+	// assign current message to variable
+	var text = ar[currentMessage]
+
+	// if current message has not finished being displayed
+	if (offset < text.length) {
+		// if last character of current message is a space
+		if (text.charAt(offset) == " ")
+			// skip the current character
+			offset++			
+
+		// assign the up-to-date to-be-displayed substring
+		// second argument of method accepts index of last character plus one
+		var partialMessage = text.substring(0, offset + 1) 
+
+		// display partial message in status bar
+		window.status = partialMessage
+
+		// increment index of last character to be displayed
+		offset++ // IE sometimes has trouble with "++offset"
+
+		// recursive call after specified time
+		timerID = setTimeout("showBanner()", speed)
+
+		// banner is running
+		bannerRunning = true
+	} else {
+		// reset offset
+		offset = 0
+
+		// increment subscript (index) of current message
+		currentMessage++
+
+		// if subscript of current message is out of range
+		if (currentMessage == ar.length)
+			// wrap around (start from beginning)
+			currentMessage = 0
+
+		// recursive call after specified time
+		timerID = setTimeout("showBanner()", pause)
+
+		// banner is running
+		bannerRunning = true
+	}
+}
+
+// -->
+</script>
+</head>
+
+<body onLoad="startBanner()" bgcolor="FAF0E6" background="bkgr2csjb.jpg">
+<div align="left">
+
+<table border="0" cellpadding="0" cellspacing="0" height="256" width="883">
+  <tr>
+    <td height="158" width="159"><img src="logosmall.gif" alt width="131" height="156"></td>
+    <td valign="middle" align="center" height="158" width="724"><img src="top.gif"
+    alt="Welcome to The Sisters of St. John The Baptist WebSite" width="479" height="79"><p>&nbsp;</td>
+  </tr>
+</center>
+  <tr>
+    <td valign="middle" align="center" height="98" width="159">
+      <p align="left"><a href="index.htm"><font color="#000000" face="Arial" size="2"><b><br>
+      <br>
+      Home<br>
+      </b></font></a><b><font color="#000000" face="Arial" size="2"><font face="Arial" size="2"><a href="csjb2.htm"><font color="#000000">History
+      &amp; Mission<br>
+      </font></a><a href="csjb12.htm"><font color="#000000">Founder's Page<br>
+      </font></a><a href="csjb3.htm"><font color="#000000">American Presence<br>
+      </font></a>I<a href="csjb4.htm"><font color="#000000">nternational
+      Presence<br>
+      </font></a><a href="csjb5.htm"><font color="#000000">Membership<br>
+      </font></a><a href="csjb6.htm"><font color="#000000">Special Sisters</font></a></font><a href="csjb7.htm"><font color="#000000"><br>
+      Special Projects<br>
+      </font></a><a href="csjb8.htm"><font color="#000000">Did You Know?<br>
+      </font></a><a href="csjb10.htm"><font color="#000000">Reflections<br>
+      </font></a><a href="csjb9.htm"><font color="#000000">Thank You</font></a>
+
+      </font></b>
+    </td>
+    <center>
+
+    <td height="98" width="724"><p align="center"><a name="History"><img src="hm.gif" alt="Our History and Our Mission" width="430" height="55"></a></td>
+  </tr>
+</table>
+	<table border="0" width="94%" id="table2">
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+			<img border="0" src="Gen_Chap_02.jpg" width="591" height="322" align="middle"></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+</div>
+<div align="left">
+
+<table border="0" cellpadding="0" cellspacing="0" height="805" width="886">
+  <tr>
+    <td valign="top" height="93" width="331" bgcolor="#FFE8E8"><p align="center">&nbsp;</p>
+      <b>
+        <p align="center"><font face="Verdana" size="2">&nbsp;&nbsp;&nbsp;</font></B><font face="Arial Black">The
+        Apostolic Intention of the Congregation</font></p>
+      <b>
+        <div style="padding-left: 20px; padding-top: 10px">
+        <p ALIGN="left"><font size="2" face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        As members of the Church mystery,</font></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <b><font size="2" face="Arial">according to our common vocation-mission
+        (charism), we work for the glory of God&nbsp; in the service of our
+        neighbor</font></B> <font size="2" face="Arial"><b>especially the poor,
+        the abandoned, and those at risk
+      </B>
+        </font> <b><font size="2" face="Arial">so that they may be able to
+        realize themselves in the Church and in society and become promoters of
+        justice and peace&nbsp; for a better future for humanity.</font></p>
+        <p ALIGN="left"><font size="2" face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        In this service, we are called to reveal and witness to the world</font>
+        <font size="2" face="Arial">Jesus of Nazareth&nbsp;</font></B>&nbsp; <font size="2" face="Arial"><b>in
+        the light of and the hope in the coming of the Kingdom of God.&nbsp;</B></font>&nbsp;</p>
+      <p ALIGN="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size="2" face="Arial"><b>We
+      affirm the charismatic centrality of Jesus of Nazareth</B></font>&nbsp; <b><font size="2" face="Arial">to
+      our Congregational identity and see in John the Baptist that privileged
+      guide who leads us to Jesus.</font></p>
+      <p ALIGN="left"><font size="2" face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      We must decrease so that He (the Lord) may increase.</font></p>
+      </div>
+      <p ALIGN="center"><img border="0" src="computers2.JPG" align="center" width="197" height="191">
+      </B>
+    </td>
+    <td valign="top" height="805" width="26" rowspan="2"></td>
+    <td valign="top" height="805" width="521" rowspan="2">
+      <p><b><font size=3>&nbsp;&nbsp;</font></B></p>
+      <div style="padding-left: 20px; padding-right: 10px">
+		<strong><font face="Verdana" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Since 1878 the Baptistine
+      Sisters, a Roman Catholic religious community for women, have been
+      &quot;preparing the way of the Lord&quot; in the lives and hearts of
+      God’s people.&nbsp; Empowered by their vowed love for God and
+      strengthened by the bonds of Community life, they seek through education,
+      health care, and pastoral ministry to remove those obstacles which hinder
+      people from freely accepting the<i> </i>Love and Word of God into their
+      lives.</font></strong><p><b><font size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In the late 1800's
+      </font><font face="Verdana" size="2">war had ravaged the towns of southern Italy and death had bereaved
+          most families. In the small town of Angri, with husbands deceased or
+      still at war, many mothers had to leave their children and work long hours in the fields in
+          order to provide the&nbsp; food, clothing and shelter for their
+      families. The
+          sight of so many young children left to themselves stirred the heart of a young parish
+      priest - Father Alfonso Maria Fusco.</font></B></p>
+        
+      <p><b><font face="Verdana" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      In 1878 after overcoming many obstacles and
+          convinced&nbsp; that this was God&#146;s work for him Father Fusco and
+      some pious women of the parish led by Maddalena Caputo committed themselves to caring for and educating these young
+      children.&nbsp;
+      And so began the&nbsp; religious Community and mission&nbsp; of the Sisters of St. John the Baptist, commonly known as the
+      Baptistines.</font></p>
+        
+        </B>
+      <p><b><font size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </font><font face="Verdana" size="2">Within his lifetime&nbsp; Father&nbsp; Fusco saw the work of his Sisters begin to
+          spread throughout Italy and then to the United States (1906).&nbsp; Today, the Sisters serve in
+        16 countries on 5 continents.&nbsp;</font></p>
+        <p align="left"><font face="Verdana" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;The general government of the Congregation is located in Rome,
+        Italy. The Sisters currently serving in international leadership
+        of&nbsp; the Congregation are:</font></p>
+		<p align="left"><font face="Verdana" size="2"><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font><i><font face="Times New Roman">Sr. Rosaria Di Iorio 
+		(Italy)&nbsp;-&nbsp; &nbsp;Superior General </font></i></p>
+		<blockquote>
+			<p align="left"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</font>&nbsp;Sr. John Agnes Barone, Vicar (USA) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sr. 
+			Lucy Kallarackal,Councilor (India) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sr. 
+			Edna Marie Medeiros,Councilor (Brazil)&nbsp;<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+			Sr. Jesusita Cubillo,Councilor (Philippines)&nbsp;<font size="2"> </p>
+		</blockquote>
+		</div>
+		</font>
+		<p align="left"></B></p>
+      <p align="left"><font face="Verdana" size="2"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </b></font>
+		<p><font size="2"><b>&nbsp;&nbsp;</b></font>
+        </td>
+  </tr>
+  <tr>
+    <td valign="top" height="26" width="331">
+      <p align="center">
+      </p>
+    </td>
+  </tr>
+</table>
+</div>
+<table border="0" width="94%">
+  <tr>
+    <td width="87%">
+ <p align="center"><B><center><font face="Verdana" size="2">If you would like to know more about our
+ Founder</font></center></b> 
+ <p align="center"><B><font face="Verdana" size="2">&nbsp;</font><font face="Arial" size="3" color="#800000">Blessed Alfonso Maria Fusco</font></b><font color="#800000">
+	</font> 
+ <p align="center"><B><font face="Verdana" size="2"> wish to place an intention for his intercession,<br>
+ learn how you can assist our works,&nbsp;<br>
+ or be placed on our Prayer List or Mailing List</font></b> 
+ <p align="center"><B><font face="Arial" size="2"><i>please contact:</i></font></b><p align="center">
+	<b><font face="Arial">
+  <font size="2">Sisters of St. John the Baptist<br>
+  Provincial Residence<br>
+  3308 Campbell Drive<br>
+  Bronx, NY 10465</font>
+  </font><font face="Verdana" size="2">
+ 	<br>
+	<br>
+	&nbsp;</font><center><font size="2" face="Arial"><font color="#000000">
+	<a href="mailto:baptistines@baptistines.org"><font color="#000080">Sisters@baptistines.org</font></a></font></a></font><font face="Arial"><p align="center"><font face="Verdana" size="2">&nbsp;</font></font></center></b> 
+ 	</td>
+  </tr>
+</table>
+<B><font face="Arial">
+
+<p align="center"><a href="index.htm"><img src="back.gif" border="0" width="36"
+height="56" alt="back"></a>&nbsp; <a href="index.htm"><img src="home.gif" border="0"
+width="36" height="54" alt="home"></a>&nbsp; <a href="csjb12.htm"><img src="next.gif"
+border="0" width="35" height="56" alt="next"></a></p>
+
+<p align="left"><a href="http://www.cwd.shalfleet.net"><img src="cwebdesigns.gif" border="0"
+width="120" height="25" alt="www.Rietveld.nu"></a></p>
+<!-- BEGIN FASTCOUNTER CODE -->
+
+<p>
+<!-- END FASTCOUNTER LINK --></p>
+</font></b>
+</body>
+</html>
+
+
+

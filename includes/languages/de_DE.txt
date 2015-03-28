@@ -1,0 +1,53 @@
+#Flyspeck language file: german
+
+#Top Navigation
+Publish Page
+Seite publizieren
+
+Preview Page
+Vorschau
+
+Save As New Page
+Als neue Seite speichern
+
+Site Browser
+Webseiten Browser
+
+User Manager
+Benutzer Verwaltung
+
+Role Manager
+Rollen Verwaltung
+
+Logout
+Abmelden
+
+Welcome
+Willkommen
+
+you are in the role
+Sie sind in der Rolle
+
+#meta display
+Title
+Titel
+
+Meta Keywords
+Meta Stichw&ouml;rter
+
+Meta Description
+Meta Beschreibung
+
+#Login Form
+Username
+Benutzername
+
+Password
+Passwort
+
+Login
+Anmelden
+
+#Messaging
+Content Saved Successfully
+Inhalt erfolgreich gespeichert

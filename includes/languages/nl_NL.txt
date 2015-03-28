@@ -1,0 +1,53 @@
+#Flyspeck language file: dutch
+
+#Top Navigation
+Publish Page
+Pagina publiceren
+
+Preview Page
+Voorproef pagina
+
+Save As New Page
+Opslaan als nieuwe pagina
+
+Site Browser
+Navigator van plaats
+
+User Manager
+Beheerder d'gebruikers 
+
+Role Manager
+Administratieve Taken
+
+Logout
+Afmelden
+
+Welcome
+Welkom
+
+you are in the role
+U bent in de rol
+
+#meta display
+Title
+Titel
+
+Meta Keywords
+Meta Zoekwoorden
+
+Meta Description
+Meta Beschrijving
+
+#Login Form
+Username
+Gebruikersnaam
+
+Password
+Wachtwoord
+
+Login
+Inloggen
+
+#Messaging
+Content Saved Successfully
+Inhoud opgeslagen met succes

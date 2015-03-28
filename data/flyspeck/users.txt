@@ -1,0 +1,6 @@
+id#fullname#email#username#password#role_id
+inc#str#str#str#str#int
+#####0
+1#admin#admin#admin#¶¥xQ¶¶¶¶¥xQ¶¶¶¶¶¶¶¶¶¶¶¶¶¥xQ¶¶¶¶¶¶¶¶¶¥xQ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¥xQ#1
+42#Editor##editor#¶¶¶¶¶¥xQ¶¶¶¶¥xQ¶¶¶¶¶¶¶¶¶¥xQ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¥xQ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¥xQ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¥xQ#3
+43#Whole Site Editor##editor#¶¶¶¶¶¥xQ¶¶¶¶¥xQ¶¶¶¶¶¶¶¶¶¥xQ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¥xQ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¥xQ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¥xQ#2

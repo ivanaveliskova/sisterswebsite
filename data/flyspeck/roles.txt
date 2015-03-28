@@ -1,0 +1,5 @@
+id#rolename#access#description#role_2
+inc#str#str#str#str
+####
+1#admin#WHOLE#The default admin role#
+2#Whole Site Editor#test#This role can edit the whole site.#

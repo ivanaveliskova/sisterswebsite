@@ -1,0 +1,54 @@
+#Flyspeck language file: English
+
+#Top Navigation
+Publish Page
+Publish Page
+
+Preview Page
+Preview Page
+
+Save As New Page
+Save As New Page
+
+Site Browser
+Site Browser
+
+User Manager
+User Manager
+
+Role Manager
+Role Manager
+
+Logout
+Logout
+
+Welcome
+Welcome
+
+you are in the role
+you are in the role
+
+#meta display
+Title
+Title
+
+Meta Keywords
+Meta Keywords
+
+Meta Description
+Meta Description
+
+#Login Form
+Username
+Username
+
+Password
+Password
+
+Login
+Login
+
+
+#Messaging
+Content Saved Successfully
+Content Saved Successfully
